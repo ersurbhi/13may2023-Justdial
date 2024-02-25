@@ -10,6 +10,18 @@ header{
     width: 83%;
     margin: auto;
 }
+ul > li > a:hover{
+    background-color: #EDEDED;
+    cursor: pointer;
+    
+}
+.s_menu > li:hover ul{
+    display: block;/*Show*/
+}
+.s_submenu{
+    width: 100px;
+    display: none;/*Hide*/
+}
 main{
     height: 3119px;
     
