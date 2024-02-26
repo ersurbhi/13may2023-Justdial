@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    height: 81px;
+    min-height: 81px;
     width: 83%;
     margin: auto;
 }
@@ -43,6 +43,12 @@ footer{
 }
 .s_footer4{
     height: 97px;
+}
+
+@media screen and(max-width: 576px){
+    .s_form_col{
+        height: 50px;
+    }
 }
 @media (min-width:1400px){
     .container, .container-lg, .container-md, .container-sm, 
