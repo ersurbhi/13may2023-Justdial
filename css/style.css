@@ -25,9 +25,10 @@ ul > li > a:hover{
 main{
     height: 3119px;
     
+    
 }
-.mt-5 .s_mt-5{
-    margin-top: 5rem !important;
+.s_mt-5{
+    margin-top: 6rem !important;
 }
 footer{
     
@@ -44,10 +45,61 @@ footer{
 .s_footer4{
     height: 97px;
 }
+.s_tnr{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+::-webkit-input-placeholder {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333 !important;
+    opacity: 0.5 !important;
+}
+ 
+ :-moz-placeholder { /* Firefox 18- */
+       font-size: 25px;
+       font-weight: bold;
+       color: #333 !important;
+       opacity: 0.5 !important;
+}
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+       font-size: 25px;
+       font-weight: bold;
+       color: #333 !important;
+       opacity: 0.5 !important;
+}
+ 
+ /* Overriding styles */
+ 
+ ::-webkit-input-placeholder {
+    font-size: 15px!important;
+    font-weight: bold;
+    color: #333 !important;
+    opacity: 0.5 !important;
+}
+ 
+ :-moz-placeholder { /* Firefox 18- */
+       font-size: 15px!important;
+       font-weight: bold;
+       color: #333 !important;
+       opacity: 0.5 !important;
+}
+ ::-moz-placeholder {  /* Firefox 19+ */
+       font-size: 15px!important;
+       font-weight: bold;
+       color: #333 !important;
+       opacity: 0.5 !important;
+}
+ 
 
 @media screen and(max-width: 576px){
     .s_form_col{
         height: 50px;
+    }
+    .s_mt-5{
+        margin-top: 400px !important;
+        padding-top: 200px !important;
     }
 }
 @media (min-width:1400px){
