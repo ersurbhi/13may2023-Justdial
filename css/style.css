@@ -25,14 +25,11 @@ ul > li > a:hover{
 main{
     height: 3119px;
     
-    
 }
 .s_mt-5{
-    margin-top: 6rem !important;
+    margin-top: 7rem !important;
 }
-footer{
-    
-}
+
 .s_footer1{
     height: 112px;
 }
@@ -93,13 +90,19 @@ footer{
 }
  
 
-@media screen and(max-width: 576px){
+@media screen and(max-width: 576px) {
     .s_form_col{
         height: 50px;
     }
     .s_mt-5{
         margin-top: 400px !important;
         padding-top: 200px !important;
+    }
+    footer{
+        position:fixed;
+        bottom: 0px;
+        left: 0px;
+        
     }
 }
 @media (min-width:1400px){
